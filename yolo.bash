@@ -7,7 +7,7 @@ sudo apt update
 sudo apt upgrade -y
 
 echo "Basis-Pakete..."
-sudo apt install -y \
+sudo apt install -y && flatpak update -y \
     flatpak \
     kde-config-flatpak \
     vlc \
